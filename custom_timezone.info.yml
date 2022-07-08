@@ -1,0 +1,6 @@
+name: 'Timezone'
+type: module
+description: 'Custom Module to display the current time of the selected timezone '
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Custom'

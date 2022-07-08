@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_timezone
+  theme:
+    - timezone_theme
+id: timezone_theme_blockthatdisplayscurrenttimeandtimezone
+theme: timezone_theme
+region: branding
+weight: 0
+provider: null
+plugin: timezone_block
+settings:
+  id: timezone_block
+  label: 'Block that displays current time and timezone'
+  label_display: '0'
+  provider: custom_timezone
+visibility: {  }

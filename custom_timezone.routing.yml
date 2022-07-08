@@ -1,0 +1,7 @@
+custom_timezone.timezone_settings:
+  path: '/admin/config/custom_timezone/timezone_settings'
+  defaults:
+    _form: '\Drupal\custom_timezone\Form\TimezoneSettingsForm'
+    _title: 'Timezone Settings Form'
+  requirements:
+    _permission: 'manage all admin functions'

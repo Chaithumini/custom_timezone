@@ -1,0 +1,6 @@
+custom_timezone.admin:
+  title: 'Timezone settings'
+  description: 'Configure the site timezone'
+  parent: system.admin
+  route_name: custom_timezone.timezone_settings
+  weight: 10

@@ -1,0 +1,3 @@
+services:
+ custom_timezone.getTime:
+   class: Drupal\custom_timezone\GetCurrentTime
